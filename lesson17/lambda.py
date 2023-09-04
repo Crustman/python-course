@@ -1,6 +1,6 @@
 from functools import reduce
 def squared(num): return num * num
-# lambda num : num * num
+ #lambda num : num * num
 
 
 print(squared(2))

@@ -26,8 +26,7 @@ def play_rps():
     computer = int(computerchoice)
 
     print("\nYou chose " + str(RPS(player)).replace('RPS.', '').title() + ".")
-    print("Python chose " + str(RPS(computer)
-                                ).replace('RPS.', '').title() + ".\n")
+    print("Python chose " + str(RPS(computer)).replace('RPS.', '').title() + ".\n")
 
     def decide_winner(player, computer):
         if player == 1 and computer == 3:
